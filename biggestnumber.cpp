@@ -15,22 +15,19 @@ int main()
 
   if (first > second)
     {
-        std::cout<<"Of those two numbers, the biggest is: "<<first<<std::endl;
+    biggest = first;
+
+        std::cout<<"Of those two numbers, the biggest is: "<<biggest<<std::endl;
   }
-  else if (second > first) 
-    {
+
+
+  else 
+   {
+
+   biggest =  second;
+
         std::cout<<"Of those two numbers, the biggest is: "<<second<<std::endl;
-  }
-
-  else if (first == second)
-    {
-        std::cout<<"Both integers are the same"<<std::endl;
-  }
-
-  else
-    {
-        std::cout<<"?"<<std::endl;
-   }
+        }
 
   std::cout<<std::endl<<"Thank you for playing.\n";
   
